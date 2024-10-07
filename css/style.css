@@ -20,7 +20,7 @@
     --dark: #23272A;
     --blue: #255EE9;
     --light: #F6F6F6;
-    --violet: #748ADB;
+    --violet:#748ADB;
     --gray: #D9D9D9;
 }
 
@@ -38,6 +38,10 @@
 
 .bg-dark {
     background-color: var(--dark);
+}
+
+.txt-light {
+    color: var(--light);
 }
 
 .container{
@@ -77,6 +81,33 @@
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+.btn {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+}
+
+.btn-big {
+    display: inline-block;
+    padding: 6px 21px;
+    border-radius: 20px;
+} 
+
+.btn-violet{
+    background-color: var(--violet);
+    color: var(--light);
+}
+
+.btn-light{
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.btn-dark{
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 main {
