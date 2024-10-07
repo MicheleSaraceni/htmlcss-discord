@@ -48,7 +48,7 @@
 }
 
 .container-small{
-    max-width: 900px;
+    max-width: 650px;
     margin: 0 auto;
     padding: 20px 10px;
     width: 100%;
@@ -94,9 +94,10 @@ ul {
 li {
     margin:0 20px;
 }
+
 #hero {
     background-image: url(../img/jumbo.png);
-    height: 600px;
+    height: 480px;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
@@ -108,17 +109,23 @@ li {
     color:var(--light)
 }
 
-#hero div h1 {
-    font-size: 55px;
+h1 {
+    font-size: 40px;
+    line-height: 60px;
 }
 
 p {
-    font-size: 21px;
+    font-size: 16px;
+    padding-top: 15px;
 }
 
 #place {
     justify-content: center;
     align-items: center;
+}
+
+.m-top {
+    margin-top: 15px;
 }
 
 #meet {
@@ -132,9 +139,21 @@ p {
 }
 
 #tecnology {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+#tecnology div{
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.bg-star {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    width: 400px;
 }
 
 /*Font*/
