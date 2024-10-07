@@ -44,6 +44,9 @@
     color: var(--light);
 }
 
+.txt-violet {
+    color: var(--violet);
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
